@@ -1,0 +1,1 @@
+pythagoreanTriple = head [a*b*c | c <- [0..], b <- [0..c], a <- [0..b], (a^2 + b^2) == c^2, (a + b + c) == 1000]
